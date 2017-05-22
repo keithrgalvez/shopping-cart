@@ -1,4 +1,4 @@
-package com.shoppingcart.service;
+package com.shoppingcart.model;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
@@ -11,6 +11,7 @@ import org.junit.Test;
 
 import com.shoppingcart.model.ShoppingCart;
 import com.shoppingcart.model.Product;
+import com.shoppingcart.service.ProductService;
 import com.shoppingcart.service.impl.ProductServiceImpl;
 
 public class ShoppingCartTest {
